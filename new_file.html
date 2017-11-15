@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>es6 class类的基本方法</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+//		function Person(x,y){
+//			this.x=x;
+//			this.y=y;
+//		}
+//		Person.prototype.toString=function(){
+//			return (this.x+"的年龄是"+this.y+"岁");
+//		}
+//		let person=new Person("张三",20);
+//		console.log(person.toString());
+
+
+        class Point{
+        	constructor(x,y){
+        		this.x=x;
+        		this.y=y;
+        	}
+        	toString(){
+        		return (this.x+"的年龄是"+this.y+"岁");
+        	}
+        }
+        var point=new Point("张三","19");
+        console.log(point.toString());
+		</script>
+	</body>
+</html>

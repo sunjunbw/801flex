@@ -1,0 +1,13 @@
+ul { padding: 0; margin: 0; list-style: none; }
+
+html, html body section { width: 100%; height: 100%; }
+html body, html body section body { margin: 0; margin-bottom: 2rem; }
+html body header { position: fixed; width: 100%; background: darkgreen; height: 2rem; top: 0; z-index: 5; }
+html body section { margin-top: 2rem; }
+html body footer { width: 100%; height: 2rem; background: darkgreen; position: fixed; bottom: 0; }
+html body ul li { position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; box-sizing: border-box; padding-left: 2rem; padding-right: 3.2rem; }
+html body ul li img { width: 1.2rem; }
+html body ul li span { position: absolute; right: 0.4rem; }
+html body ul li img { position: absolute; left: 0.4rem; }
+
+/*# sourceMappingURL=lx2.css.map */

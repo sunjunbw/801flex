@@ -1,0 +1,15 @@
+ul { padding: 0; margin: 0; list-style: none; }
+
+a { text-decoration: none; color: #000; -webkit-tap-highlight-color: transparent; }
+
+html, html .box { width: 100%; height: 100%; }
+html body, html .box body { height: 100%; margin: 0; }
+html .box { display: flex; flex-direction: column; }
+html .box .slider img { max-width: 100%; display: block; }
+html .box nav ul { display: flex; }
+html .box nav ul li { flex: 1; text-align: center; }
+html .box header, html .box footer { height: 50px; background: #006400; }
+html .box section { flex: 1; /*          background: red;  */ overflow: auto; }
+html .box section li a { display: block; width: 100%; height: 30px; }
+
+/*# sourceMappingURL=layoutflex.css.map */
